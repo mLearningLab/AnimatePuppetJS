@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <html>
 <head>
-<title>Avatar ver. 0.1</title>
-<link rel="stylesheet" type="text/css" href="puppet.css"> 
+<title>Avatar ver. 0.1 - PR</title>
+<link rel="stylesheet" type="text/css" href="puppet.css">
 <script>
 
 // Demo: Digital Puppet Animation (Kinect Simulation)
@@ -20,7 +20,7 @@ var idName = [
 /* 6 */  "left_leg",
 /* 7 */  "right_leg",
 /* 8 */  "left_knee",
-/* 9 */  "right_knee" 
+/* 9 */  "right_knee"
 ];
 
 var idPivot = [
@@ -33,7 +33,7 @@ var idPivot = [
 /* 6 */  "pivot_left_leg",
 /* 7 */  "pivot_right_leg",
 /* 8 */  "pivot_left_knee",
-/* 9 */  "pivot_right_knee" 
+/* 9 */  "pivot_right_knee"
 ];
 
 
@@ -141,9 +141,9 @@ function update(obj)
    viewBox="0 0 700 550"
    width="500" height="400"
    onload='init()'>
-  
+
   <image xlink:href="fondo.jpg" x="0" y="0" width="100%" height="100%" />
-  
+
   <g id="torso"> <!-- BEGIN: TORSO + ARMS -->
     <animateTransform id="0" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='update(this)' />
     <circle id="pivot_torso"
@@ -161,9 +161,9 @@ function update(obj)
         d="M185,123 L177,80 Q200,56 223,80 L215,123 L185,123"
         style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1" />
     <path xlink:title="chest"
-      style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1" 
+      style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1"
       d="M165,165 Q170,155 165,142 Q200,120 235,142 Q230,155 235,165 L228,220 172,220 L165,165" />
-  
+
     <g id="left_arm">
       <animatetransform id="1" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='update(this)' />
       <circle id="pivot_left_arm"
@@ -183,7 +183,7 @@ function update(obj)
       <g id="left_elbow">
       <animateTransform id="3" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='update(this)' />
         <circle id="pivot_left_elbow"
-            cx="90.9" 
+            cx="90.9"
             cy="153"
             r="0"
             visibility="hidden" />
@@ -207,15 +207,15 @@ function update(obj)
             style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1;" />
       </g>
     </g>
-  
-    <g id="right_arm"> 
+
+    <g id="right_arm">
       <animateTransform id="2" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='update(this)' />
       <circle id="pivot_right_arm"
           cx="240.3"
           cy="153"
           r="0"
           visibility="hidden" />
-      <ellipse xlink:title="right_arm_svg_pivot" 
+      <ellipse xlink:title="right_arm_svg_pivot"
           cx="240.3"
           cy="153"
           rx="7.65"
@@ -267,10 +267,10 @@ function update(obj)
         ry="16"
         style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1" />
     <path xlink:title="hip"
-      style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1" 
+      style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1"
       d="M165,275 Q160,245 171,230 L229,230 Q240,245 235,275 L165,275" />
-  
-    <g id="left_leg"> 
+
+    <g id="left_leg">
       <animateTransform id="6" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='update(this)' />
       <circle id="pivot_left_leg"
           cx="179"
@@ -313,7 +313,7 @@ function update(obj)
             style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1;" />
       </g>
     </g>
-      
+
   <g id="right_leg">
       <animateTransform id="7" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='update(this)' />
        <circle id="pivot_right_leg"
