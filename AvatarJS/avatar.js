@@ -31,7 +31,7 @@ var idPivot = [
                ];
 
 
-var accion = [ // Sequence of angle displacements in time by joint member (Coming streaming data here!!)
+var action = [ // Sequence of angle displacements in time by joint member (Coming streaming data here!!)
 /* 0-torso */ [ 5,   [0,4],  [-5,1]],
 /* 1-l-arm */ [ 10,  [0,3.5],  [-75,1.5], [-10,1] ],
 /* 2-r-arm */ [ 40,  [0,4],  [35,1] ],
@@ -63,9 +63,9 @@ function init()
         alert('The GetSVGDocument interface is not supported');
     }
 
-    for (var i=0; i < accion.length; i++) // each joint
+    for (var i=0; i < action.length; i++) // each joint
     {
-        var d = accion[i];
+        var d = action[i];
         var tam = d.length;
         if ( tam === 0 ) { // empty?
             continue; // ignore if empty
