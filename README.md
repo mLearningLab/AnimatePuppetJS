@@ -3,8 +3,9 @@ Developing a JS API to Animate a Digital Puppet using very simple scripts and SV
 
 ## Testing
 1. Install Apache Web Server
-2. Copy AvatarJS folder
-3. Test from `http://localhost` on a Web browser
+2. Copy AvatarJs folder into [Apache dir]/www/
+3. Run Apache server
+4. Test from `http://localhost` on a Web browser
 
 ## Testing on Mac
 1. Copy AvatarJS folder to `/Library/WebServer/Documents`

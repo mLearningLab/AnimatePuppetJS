@@ -6,7 +6,7 @@ body {
     font:bold bigger Verdana,serif;
 }
 
-a, h3 {
+h3 {
     text-decoration:none;
     letter-spacing:1px;
     padding:0 28px 4px 28px;
@@ -14,10 +14,6 @@ a, h3 {
     color:#c0f;
 }
 
-a.small {
-    text-decoration:none;
-    letter-spacing:0px;
-    padding:4px;
-    font:normal smaller Verdana,serif;
-    color:#c0f;
+#avatar {
+  background-image: url(fondo.jpg);
 }
