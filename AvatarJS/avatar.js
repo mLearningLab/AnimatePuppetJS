@@ -124,9 +124,3 @@ function init()
         }
     } // for i
 } // init
-
-
-function update(obj)
-{
-    console.log("End: "+idName[obj.id]);
-}
