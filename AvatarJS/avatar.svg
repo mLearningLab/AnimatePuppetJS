@@ -6,8 +6,6 @@
    viewBox="0 0 589 432"
    width="589" height="432">
 
-  <image xlink:href="fondo.jpg" x="0" y="0" width="100%" height="100%" />
-
   <g id="puppet" transform="translate(40,-45)">
     <g id="torso"> <!-- BEGIN: TORSO + ARMS -->
       <animateTransform id="0" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' />
