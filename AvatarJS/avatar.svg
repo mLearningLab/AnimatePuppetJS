@@ -5,11 +5,11 @@
    xmlns="http://www.w3.org/2000/svg"
    viewBox="0 0 500 400"
    width="500" height="400">
-  
+
   <image xlink:href="fondo.jpg" x="0" y="0" width="100%" height="100%" />
-  
+
   <g id="torso"> <!-- BEGIN: TORSO + ARMS -->
-    <animateTransform id="0" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='' />
+    <animateTransform id="0" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' />
     <circle id="pivot_torso"
       cx="200"
       cy="220"
@@ -25,11 +25,11 @@
         d="M185,123 L177,80 Q200,56 223,80 L215,123 L185,123"
         style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1" />
     <path xlink:title="chest"
-      style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1" 
+      style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1"
       d="M165,165 Q170,155 165,142 Q200,120 235,142 Q230,155 235,165 L228,220 172,220 L165,165" />
-  
+
     <g id="left_arm">
-      <animatetransform id="1" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='' />
+      <animatetransform id="1" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' />
       <circle id="pivot_left_arm"
           cx="159.3"
           cy="153"
@@ -45,9 +45,9 @@
           d="M97.2,146.7 Q134.1,136.8 151.2,144.9 L151.2,161.1 Q134.1,169.2 97.2,159.3 L97.2,146.7"
           style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1;" />
       <g id="left_elbow">
-      <animateTransform id="3" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='' />
+      <animateTransform id="3" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' />
         <circle id="pivot_left_elbow"
-            cx="90.9" 
+            cx="90.9"
             cy="153"
             r="0"
             visibility="hidden" />
@@ -71,15 +71,15 @@
             style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1;" />
       </g>
     </g>
-  
-    <g id="right_arm"> 
-      <animateTransform id="2" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='' />
+
+    <g id="right_arm">
+      <animateTransform id="2" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' />
       <circle id="pivot_right_arm"
           cx="240.3"
           cy="153"
           r="0"
           visibility="hidden" />
-      <ellipse xlink:title="right_arm_svg_pivot" 
+      <ellipse xlink:title="right_arm_svg_pivot"
           cx="240.3"
           cy="153"
           rx="7.65"
@@ -89,7 +89,7 @@
           d="M248.4,144.9 Q265.5,136.8 302.4,146.7 L302.4,159.3 Q265.5,169.2 248.4,161.1 L248.4,144.9"
           style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1;" />
       <g id="right_elbow">
-      <animateTransform id="4" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='' />
+      <animateTransform id="4" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' />
         <circle id="pivot_right_elbow"
             cx="308.7"
             cy="153"
@@ -118,7 +118,7 @@
   </g> <!-- END: TORSO + ARMS -->
 
   <g id="hip"> <!-- BEGIN: HIP + LEGS -->
-    <animateTransform id="5" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='' />
+    <animateTransform id="5" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' />
     <circle id="pivot_hip"
         cx="200"
         cy="225"
@@ -131,11 +131,11 @@
         ry="16"
         style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1" />
     <path xlink:title="hip"
-      style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1" 
+      style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1"
       d="M165,275 Q160,245 171,230 L229,230 Q240,245 235,275 L165,275" />
-  
-    <g id="left_leg"> 
-      <animateTransform id="6" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='' />
+
+    <g id="left_leg">
+      <animateTransform id="6" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' />
       <circle id="pivot_left_leg"
           cx="179"
           cy="281"
@@ -151,7 +151,7 @@
           d="M170.6,352.6 Q157.4,307.5 168.2,286.6 L189.8,286.6 Q200.6,307.5 187.4,352.6 L170.6,352.6"
           style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1;" />
       <g id="left_knee">
-        <animateTransform id="8" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='' />
+        <animateTransform id="8" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' />
         <circle id="pivot_left_knee"
             cx="179"
             cy="360.3"
@@ -177,9 +177,9 @@
             style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1;" />
       </g>
     </g>
-      
+
   <g id="right_leg">
-      <animateTransform id="7" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='' />
+      <animateTransform id="7" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' />
        <circle id="pivot_right_leg"
           cx="222"
           cy="281"
@@ -195,7 +195,7 @@
           d="M232.8,286.6 Q 243.6,307.5 230.4,352.6 L213.6,352.6 Q 200.4,307.5 211.2,286.6 L232.8,286.6"
           style="fill:#F5F5DC; stroke:#A0522D; stroke-width:1;" />
       <g id="right_knee">
-        <animateTransform id="9" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' onend='' />
+        <animateTransform id="9" attributeName='transform' type='rotate' attributeType='XML' fill='freeze' additive='sum' />
         <circle id="pivot_right_knee"
           cx="222"
           cy="360.3"

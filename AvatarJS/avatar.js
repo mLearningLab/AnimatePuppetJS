@@ -62,7 +62,7 @@ function init()
     catch(exception) {
         alert('The GetSVGDocument interface is not supported');
     }
-    
+
     for (var i=0; i < accion.length; i++) // each joint
     {
         var d = accion[i];
@@ -75,7 +75,7 @@ function init()
         var pivot = svgDoc.getElementById(idPivot[i]); // pivot
         var cx = 1*pivot.getAttribute("cx");
         var cy = 1*pivot.getAttribute("cy");
-        
+
         var values = angle+" "+cx+" "+cy+";";
         var tot = 0;
         for (var j=1; j<tam; j++ ) // each pose ==> tot
@@ -94,7 +94,7 @@ function init()
             }
             values += (angle+" "+cx+" "+cy+";"); // (j+1>=tam?"":";"));
         } // for j
-        
+
         var keyTimes = "0;"; // 0<x<1
         var dur = 0;
         for (var j=1; j<tam; j++ ) // each pose ==> keyTimes
