@@ -1,19 +1,23 @@
 /* puppet.css */
 
 body {
-    background:black;
-    color:#80e;
-    font:bold bigger Verdana,serif;
+    background: black;
+    color: #96e;
+    font: bold bigger Verdana,serif;
+}
+
+body, img, h3 {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 h3 {
-    text-decoration:none;
-    letter-spacing:1px;
-    padding:0 28px 4px 28px;
-    font:bold bigger Verdana,serif;
-    color:#c0f;
+    letter-spacing: 3px;
+    padding: 28px;
 }
 
 #avatar {
   background-image: url(fondo.jpg);
+  border: #606  dashed 4px;
 }

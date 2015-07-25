@@ -107,7 +107,7 @@ function init()
                     dur += d[j][1];
                     break;
             }
-            keyTimes += (round(dur/tot) + ";"); // (1.0*dur/tot + ";");
+            keyTimes += (round(dur/tot) + ";");
         } // for j
         keyTimes = keyTimes.substring(0, keyTimes.length - 1); //.2 BUG: Chrome fails if KeyTimes ends with ";"
         if (tot>0) {
